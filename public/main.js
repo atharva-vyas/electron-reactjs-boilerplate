@@ -15,6 +15,8 @@ function createWindow() {
     win.loadURL('http://localhost:3000')
 }
 
+app.disableHardwareAcceleration()
+
 app.on('ready', createWindow)
 
 // Quit when all windows are closed.
